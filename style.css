@@ -1,0 +1,68 @@
+
+body {
+    background-color: #eaf4ff;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+/* ID SELECTOR */
+/* Căn giữa tiêu đề */
+#tieuDe {
+    text-align: center;
+    color: #1e3a8a;
+}
+
+/* CLASS SELECTOR */
+/* Định dạng đoạn giới thiệu */
+.gioiThieu {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
+
+/* GROUPING SELECTOR */
+/* Định dạng h2 và danh sách */
+h2, ul {
+    width: 400px;
+    margin: 20px auto;
+}
+
+/* ELEMENT SELECTOR */
+li {
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* CLASS SELECTOR */
+/* Mỗi sở thích có một màu khác nhau */
+li:nth-child(1) {
+    color: red;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+li:nth-child(3) {
+    color: blue;
+}
+
+/* ID SELECTOR */
+#nutBam {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* PSEUDO-CLASS SELECTOR */
+/* Đổi màu khi đưa chuột vào nút */
+#nutBam:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
